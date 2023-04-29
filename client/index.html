@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="container">
+    
+    
+    <br>
+    <br>
+
+    <div class="btz">
+      <div class="vertical-center">
+        <button id="complimentButton" class = 'alerts'>Get a compliment</button>
+        <br>
+        <br>
+        <button id="fortuneCookie" class="alerts">Get a cookie</button>
+      </div>
+    </div>
+
+    <form>
+      <input 
+          type='text'
+          id="objective"
+          placeholder="What's your goal?"/>
+      <input 
+          type='text'
+          id="days"
+          placeholder="How many days to achieve your goal?"/>
+      <button id = "add">add goal!</button>
+  </form>
+
+  <section id="goals-container"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

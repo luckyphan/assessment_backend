@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  
+  form {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(255, 193, 219);
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+    border-radius: 5px;
+  }
+  
+#add{
+    background-color: #041823;
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+    color: rgb(255, 193, 219);
+    border: none;
+    margin: 5px;
+  }
+  
+  input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: snow;
+  }
+
+  
+  #goals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .goal-card {
+    background-color: rgb(255, 193, 219);
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .goal-days {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  .btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  
+  .btns-container > button {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top:5px;
+  }
+
+  .btz {
+    height: 100px;
+    position: relative;
+    top:150px;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.alerts{
+  background-color: #041823;
+  color:rgb(255, 193, 219);
+  border-radius: 5px;
+}
